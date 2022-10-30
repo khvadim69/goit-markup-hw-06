@@ -135,7 +135,7 @@
                   width="370"
                   height="294"
                   style="display: block"
-                />
+                >
                 <h3 class="specialization-item">Десктопні додатки</h3>
               </div>
             </li>
@@ -147,7 +147,7 @@
                   width="370"
                   height="294"
                   style="display: block"
-                />
+                >
                 <h3 class="specialization-item">Мобільні додатки</h3>
               </div>
             </li>
@@ -159,7 +159,7 @@
                   width="370"
                   height="294"
                   style="display: block"
-                />
+                >
                 <h3 class="specialization-item">Дизайнерські рішення</h3>
               </div>
             </li>
@@ -467,29 +467,32 @@
           </div>
           <div class="footer-box-social">
             <h3 class="call-subscribe">Підпишіться на розсилку</h3>
-          <div class="subscribe">
-            <input
-              name="person-mail"
-              type="email"
-              class="form-subscribe"
-              placeholder="E-mail"
-            />
-                <button type="submit" class="subscribe-button">Підписатися
+            <div class="subscribe">
+              <input
+                name="person-mail"
+                type="email"
+                class="form-subscribe"
+                placeholder="E-mail"
+              />
+              <button type="submit" class="subscribe-button">
+                Підписатися
                 <svg width="24" height="24">
-                   <use href="./images/icons.svg#icon-send"></use>
-                  </svg></button>
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
-    
     </footer>
     <div class="backdrop is-hidden" data-modal>
-      <div class="modal ">
+      <div class="modal">
         <button class="button-modal" type="button" data-modal-close>
           <svg width="11" height="11">
             <use href="./images/icons.svg#icon-Vector"></use>
           </svg>
         </button>
-        <h2 class="form-title">Залиште свої дані, ми вам передзвонимо</h2>
+        <p class="form-title">Залиште свої дані, ми вам передзвонимо</p>
         <form class="form" action="#" name="conact-form">
           <label class="form-label" for="person-name">Ім'я</label>
           <div class="form-control">
@@ -508,7 +511,7 @@
             <input
               id="person-phone"
               name="person-tel"
-              type="phone"
+              type="tel"
               class="form-input"
             />
             <svg class="form-icon" width="12" height="12">
@@ -539,18 +542,18 @@
             placeholder="Введіть текст"
           >
           </textarea>
-        
-
-          <div class="agreement"><input
-            id="agreement"
-            type="checkbox"
-            name="agreement"
-            class="checkbox-input visually-hidden"
-          />
-          <label for="agreement" class="checkbox-label"
-            >Погоджуюся з розсилкою та приймаю
-            <a href="#" class="agreement-link">Умови договору </a></label
-          ></div>
+          <div class="agreement">
+            <input
+              id="agreement"
+              type="checkbox"
+              name="agreement"
+              class="checkbox-input visually-hidden"
+            />
+            <label for="agreement" class="checkbox-label"
+              >Погоджуюся з розсилкою та приймаю
+              <a href="#" class="agreement-link">Умови договору </a></label
+            >
+          </div>
           <button type="submit" class="agrement-button">Відправити</button>
         </form>
       </div>
